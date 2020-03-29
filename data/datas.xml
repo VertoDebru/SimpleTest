@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <tests>
     <!-- 0 = Mulan / 1 = Ariel / 2 = Pocahontas / 3 = Belle -->
     <test value="Quelle princesse Disney est tu?">
@@ -102,26 +102,5 @@
              Comme Belle, tu es une fille indépendante, tolérante qui ne juge pas sur les apparences avec une tête bien pleine!
             </result>
         </results>
-    </test>
-    <test value="My Second Test!">
-        <desc>Description du second Test</desc>
-        <question>Question 1 du second test ?
-            <answear score="0">2Reponse 1-1</answear>
-            <answear score="1">2Reponse 2-1</answear>
-            <answear score="2">2Reponse 3-1</answear>
-            <answear score="3">2Reponse 4-1</answear>
-        </question>
-        <question>Question 2 du second test ?
-            <answear score="3">2Reponse 1-2</answear>
-            <answear score="2">2Reponse 2-2</answear>
-            <answear score="1">2Reponse 3-2</answear>
-            <answear score="0">2Reponse 4-2</answear>
-        </question>
-        <results>
-            <result score="0" img="./images/1/blank.png">2Resultat pour un score a partir de 0</result>
-            <result score="2" img="./images/1/blank.png">2Resultat pour un score a partir de 2</result>
-            <result score="4" img="./images/1/blank.png">2Resultat pour un score a partir de 4</result>
-            <result score="6" img="./images/1/blank.png">2Resultat pour un score a partir de 6</result>
-        </results>
-    </test>
+</test>
 </tests>
