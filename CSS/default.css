@@ -1,0 +1,154 @@
+/* BODY */
+body
+{
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+    color: grey;
+    background-color: whitesmoke;
+}
+h1
+{
+    margin: -10px;
+    padding: 5px;
+    width: auto;
+    font-size: larger;
+
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    background-color: darkgray;
+}
+li
+{
+    margin-top: 10px;
+    padding: 10px;
+    list-style: none;
+    background-color: white;
+    text-align: center;
+}
+li:hover
+{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+button
+{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: darkgray;
+    color: white;
+
+    font-size: medium;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+button:hover
+{
+    background-color: gray;
+}
+span
+{
+    font-size: smaller;
+}
+#page
+{
+    min-width: auto;
+    min-height: 100%;
+}
+.box
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    min-height: 300px;
+    padding: 10px;
+
+    background-color: white;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.copy
+{
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    width: 450px;
+    padding: 10px;
+
+    font-size: smaller;
+    text-align: center;
+}
+/* Index */
+.listTest
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+}
+.info
+{
+    display: inline-flex;
+    position: relative;
+    top: -20px;
+    width: 120px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: x-small;
+    background-color: #CC0000;
+    border-radius: 5px;
+    cursor: default;
+}
+/* Test */ 
+#Desc
+{
+    margin-block-start: 1.5em;
+}
+#Question
+{
+    margin-block-start: 1.5em;
+}
+.listAnswear
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 205px;
+    min-height: 50px;
+}
+.resultIMG
+{
+    border: 1px solid white;
+    float: right;
+    margin: 30px 15px 15px 15px;
+    filter: drop-shadow(0.1rem 0.1rem 0.1rem grey);
+}
+.home
+{
+    margin-top: -45px;
+    width: 25px;
+    height: 25px;
+    background-color: #CC0000;
+    background-image: url("../images/icons/menuHome.png");
+    border-radius: 5px;
+    cursor: pointer;
+}
+.center
+{
+    text-align: center;
+    clear: both;
+}
+.small
+{
+    display: block;
+    margin: 30px 10px 10px 10px;
+    font-size: smaller;
+}

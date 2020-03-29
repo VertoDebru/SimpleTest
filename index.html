@@ -1,0 +1,33 @@
+<html>
+<head>
+    <script>
+        function $_GET(param) {
+            var vars = {};
+            window.location.href.replace( location.hash, '' ).replace( 
+                /[?&]+([^=&]+)=?([^&]*)?/gi, // regexp
+                function( m, key, value ) { // callback
+                    vars[key] = value !== undefined ? value : '';
+                }
+            );
+
+            if ( param ) {
+                return vars[param] ? vars[param] : null;	
+            }
+            return vars;
+        }
+    </script>
+    <meta charset="utf-8">
+    <title>Simple Test</title>
+    <link rel="stylesheet" href="CSS/default.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./scripts/TestXML.js"></script>
+</head>
+<body>
+    <div id="page">
+        <div class="box">
+            <h1 id="Title"></h1>
+        </div>
+        <div class="copy">Simple Test &beta; Written by Manou & Developed by <a href="http://vervoot.alwaysdata.net/" target="_blank">Tony</a></div>
+    </div>
+</body>
+</html>

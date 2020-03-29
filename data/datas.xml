@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+    <!-- 0 = Mulan / 1 = Ariel / 2 = Pocahontas / 3 = Belle -->
+    <test value="Quelle princesse Disney est tu?">
+        <desc>Les princesses Disney nous ont toutes fait rêver durant notre enfance,
+         chacune a sa manière, et parmi elles, il y en a forcément une qui nous correspond,
+         qui nous ressemble, à qui l'on peut s'identifier!
+        Faites ce test et vous saurez quelle héroïne de conte de fées vous incarnez.</desc>
+        <question>A l'école, tu étais plutôt ?
+            <answear score="0">Indiscipliné</answear>
+            <answear score="1">Rebelle</answear>
+            <answear score="2">Curieuse</answear>
+            <answear score="3">Bonne élève</answear>
+        </question>
+        <question>Quel personnage te correspond ?
+            <answear score="0">Katniss (Hunger Games)</answear>
+            <answear score="1">Isabelle (La gifle)</answear>
+            <answear score="2">Princesse Leila (Star Wars)</answear>
+            <answear score="3">Hermionne (Harry Potter)</answear>
+        </question>
+        <question>Pendant ton temps libre, quel est ton loisir préféré ?
+            <answear score="0">Sport</answear>
+            <answear score="1">Shopping</answear>
+            <answear score="2">Promenade</answear>
+            <answear score="3">Lecture</answear>
+        </question>
+        <question>Mon endroit préféré pour me ressourcer ?
+            <answear score="0">Chez moi, en famille</answear>
+            <answear score="1">Ma chambre</answear>
+            <answear score="2">Au parc</answear>
+            <answear score="3">Bibliothèque</answear>
+        </question>
+        <question>Quelle chanson te correspond ?
+            <answear score="0">"Comme un garçon" (Sylvie Vartan)</answear>
+            <answear score="1">"Woman in love" (Barbara Streisand)</answear>
+            <answear score="2">"Le lac" (Julien Doré)</answear>
+            <answear score="3">"Quelqu'un m'a dit" (Carla Bruni)</answear>
+        </question>
+        <question>A quoi ressemble ton Prince Charmant idéal ?
+            <answear score="0">Je ne sais pas, ce n'est pas ma priorité dans ma vie</answear>
+            <answear score="1">Je le saurais quand je le verrais</answear>
+            <answear score="2">Différent de moi, les opposés s'attirent</answear>
+            <answear score="3">Mystérieux et torturés</answear>
+        </question>
+        <question>Un coup de foudre a une soirée, ta réaction :
+            <answear score="0">Je lui offre un verre, l'air de rien.</answear>
+            <answear score="1">J'y vais, je fonce.</answear>
+            <answear score="2">Je l'invite a discuter dehors.</answear>
+            <answear score="3">Je discute avec toute la nuit.</answear>
+        </question>
+        <question>Avec votre famille, vous êtes :
+            <answear score="0">Incomprise</answear>
+            <answear score="1">Loin des yeux, près du coeur.</answear>
+            <answear score="2">Famille unie.</answear>
+            <answear score="3">Je suis une vraie fille à papa.</answear>
+        </question>
+        <question>Une vraie princesse qui vous correspond :
+            <answear score="0">Stéphanie de Monaco</answear>
+            <answear score="1">Mehgan Markle</answear>
+            <answear score="2">Sissi</answear>
+            <answear score="3">Eugénie Windsor/Maxima des Pays Bas</answear>
+        </question>
+        <question>Cadeau que tu adorais recevoir :
+            <answear score="0">Une journée sportive.</answear>
+            <answear score="1">Un voyage</answear>
+            <answear score="2">Besoin de rien</answear>
+            <answear score="3">Un bon livre</answear>
+        </question>
+        <question>Comment définis-tu ta relation avec ton père :
+            <answear score="0">Proche.</answear>
+            <answear score="1">Compliqué.</answear>
+            <answear score="2">Protecteur.</answear>
+            <answear score="3">Fusionnel.</answear>
+        </question>
+        <results>
+            <result score="0" img="./images/0/Mulan.png">
+            Malgré son amour et son respect pour sa famille,
+             Mulan n'est pas à l'aise avec les conventions et s'éloigne du rôle de fille sage et dévouée.
+             Quand son pays est envahie par les Huns, elle n'écoute que son courage
+             et part faire la guerre à la place de son père travesti en homme.
+             A des lieux des héroïnes Disney classique qui attendent que le Prince charmant vienne les chercher,
+             comme Mulan, tu brilles par ton indépendance et ton courage, pour combattre l'adversité.
+            </result>
+            <result score="1" img="./images/0/Ariel.png">
+            Ariel est une sirène fille du Roi de la Mer, brillante en chant mais aussi têtue et fougueuse!
+             En effet, malgré le fait que son père interdit toute relation avec le monde humain,
+             elle n'hésite pas à lui désobéir, à aller à la surface et à se passionner pour leur culture!
+             Plutôt ouverte sur le monde, c'est la première princesse Disney à sauver un prince et à se battre pour le conquérir!
+             Comme Ariel, rien ne peut te détourner de tes passions, de tes choix de vie et surtout pas les autres.
+            </result>
+            <result score="2" img="./images/0/Pocahontas.png">
+            Pocahontas est la fille du chef amérindien Powhatan en Virginie, à l'époque où les premiers colons anglais débarquent en Amérique.
+             A l'instar de la petite sirène, son père a des relents xénophobes et ne partage pas son point de vue,
+             et va même nouer une relation avec John Smith. Libre et aventureuse comme Pocahontas,
+             tu aimes la nature et la spiritualité qu'elle incarne.
+            </result>
+            <result score="3" img="./images/0/Belle.png">
+            Belle est une jeune fille studieuse passionnée par la littérature qui vit avec son père.
+             Consciente qu'elle parait étrange pour les gens de son village, elle n'est pas intéressé par Gaston,
+             mais par la connaissance que ses livres lui procure! Courageuse, elle n'hésite pas à prendre la place de son père,
+             prisonnier de la Bête enfermé dans son château isolé, et va apprendre à l'aimer, malgré son apparence.
+             Comme Belle, tu es une fille indépendante, tolérante qui ne juge pas sur les apparences avec une tête bien pleine!
+            </result>
+        </results>
+    </test>
+    <test value="My Second Test!">
+        <desc>Description du second Test</desc>
+        <question>Question 1 du second test ?
+            <answear score="0">2Reponse 1-1</answear>
+            <answear score="1">2Reponse 2-1</answear>
+            <answear score="2">2Reponse 3-1</answear>
+            <answear score="3">2Reponse 4-1</answear>
+        </question>
+        <question>Question 2 du second test ?
+            <answear score="3">2Reponse 1-2</answear>
+            <answear score="2">2Reponse 2-2</answear>
+            <answear score="1">2Reponse 3-2</answear>
+            <answear score="0">2Reponse 4-2</answear>
+        </question>
+        <results>
+            <result score="0" img="./images/1/blank.png">2Resultat pour un score a partir de 0</result>
+            <result score="2" img="./images/1/blank.png">2Resultat pour un score a partir de 2</result>
+            <result score="4" img="./images/1/blank.png">2Resultat pour un score a partir de 4</result>
+            <result score="6" img="./images/1/blank.png">2Resultat pour un score a partir de 6</result>
+        </results>
+    </test>
+</tests>
